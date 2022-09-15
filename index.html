@@ -44,8 +44,12 @@
   <section class="h-screen flex items-center justify-center bg-cream">
     <div class="max-w-[21rem] sm:max-w-[34rem] flex flex-col sm:flex-row bg-white rounded-lg m-4">
       <div class="sm:flex-[1_0_50%]">
-        <img class="rounded-t-lg sm:hidden" src="./images/image-product-mobile.jpg" alt="Chanel Perfume bottle">
-        <img class="rounded-l-lg hidden sm:block" src="./images/image-product-desktop.jpg" alt="Chanel Perfume bottle">
+        <!-- <img class="rounded-t-lg sm:hidden" src="./images/image-product-mobile.jpg" alt="Chanel Perfume bottle">
+        <img class="rounded-l-lg hidden sm:block" src="./images/image-product-desktop.jpg" alt="Chanel Perfume bottle"> -->
+        <picture>
+          <source media="(min-width: 640px)" srcset="./images/image-product-desktop.jpg">
+          <img class="rounded-t-lg sm:rounded-l-lg sm:rounded-tr-none" src="./images/image-product-mobile.jpg" alt="Chanel Perfume bottle">
+        </picture>
       </div>
   
       <div class="p-6 sm:flex-[1_0_50%]">
