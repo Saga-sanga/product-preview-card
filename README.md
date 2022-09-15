@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Product Preview Card](./images/image-product-desktop.jpg)
+![Product Preview Card](./design/desktop-preview.jpg)
 
 ### Links
 
