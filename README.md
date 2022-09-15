@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-I used this challenge to reinforce my knowledge on flexbox and Tailwind CSS. Also got a little more familiar with flex basis & flex grow.
+I used this challenge to reinforce my knowledge on flexbox and Tailwind CSS. Also got a little more familiar with flex basis & flex grow. Also learnt to use ```<picture>``` tag instead of ```<img>``` tag for multiple images when creating a responsive design.
 
 ## Author
 
