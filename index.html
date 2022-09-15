@@ -6,6 +6,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Product preview card component</title>
 
@@ -38,12 +41,13 @@
 </head>
 <body>
   <section class="h-screen flex items-center justify-center bg-cream">
-    <div class="max-w-[21rem] bg-white rounded-lg">
-      <div>
-        <img class="rounded-t-lg" src="./images/image-product-mobile.jpg" alt="Chanel Perfume bottle">
+    <div class="max-w-[21rem] sm:max-w-lg flex flex-col sm:flex-row bg-white rounded-lg m-4">
+      <div class="sm:flex-1">
+        <img class="rounded-t-lg sm:hidden" src="./images/image-product-mobile.jpg" alt="Chanel Perfume bottle">
+        <img class="rounded-l-lg hidden sm:block" src="./images/image-product-desktop.jpg" alt="Chanel Perfume bottle">
       </div>
   
-      <div class="p-6">
+      <div class="p-6 sm:flex-1">
         <span class="text-dark-grayish-blue tracking-[0.5rem] text-sm">PERFUME</span>  
         
         <h1 class="font-serif text-very-dark-blue text-3xl leading-[100%] mt-4">Gabrielle Essence Eau De Parfum</h1>
@@ -58,7 +62,7 @@
           <span class="font-sans text-dark-grayish-blue font-medium text-sm pl-4"><s>$169.99</s></span>
         </div>
       
-        <button class="bg-dark-cyan flex items-center justify-center w-full rounded-lg p-2.5 mt-5">
+        <button class="bg-dark-cyan hover:bg-[#204637] focus:bg-[#204637] flex items-center justify-center w-full rounded-lg p-2.5 mt-5">
           <img src="./images/icon-cart.svg" alt="shopping cart icon">
           <span class="text-white pl-2.5">Add to Cart</span>
         </button>
@@ -68,7 +72,7 @@
   
   <div class="attribution absolute bottom-0 w-full">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Reckson Khiangte</a>.
+    Coded by <a href="https://github.com/Saga-sanga">Reckson Khiangte</a>.
   </div>
 </body>
 </html>
